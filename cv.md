@@ -1,3 +1,6 @@
+###
+![](https://lh3.googleusercontent.com/a-/AFdZucoR2fAIS6KYaaHX_Y85X1kE2fskCkttpWh4X25E=s96-c-rg-br100)
+
 # Aleksander Patalieta
 
 
