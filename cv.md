@@ -1,4 +1,4 @@
-###
+
 ![](https://lh3.googleusercontent.com/a-/AFdZucoR2fAIS6KYaaHX_Y85X1kE2fskCkttpWh4X25E=s96-c-rg-br100)
 
 # Aleksander Patalieta
@@ -6,10 +6,15 @@
 
 1. ### My Contact 
     **Telegram**: @NeMoyNik
+
     ----
+    
     **Discord**: NeMoyNik (@AleksPaty)
+
     ----
+    
     **Email**: alekcandr.patalieta@gmail.com
+    
     ----
 
 2. ### Some words about me
@@ -45,7 +50,7 @@
 6. ### Education 
     * HTML Academy;
     * [Learn.javascript](https://learn.javascript.ru);
-    * Prometheus Основи Web UI розробки 2022;
+    * Prometheus course "Основи Web UI розробки 2022";
     * IT Banda course.
 
 7. **English level**: Pre-Intermediate (A2).
