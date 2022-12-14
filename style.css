@@ -2,3 +2,122 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    max-width: 1440px;
+    font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    line-height: 1.4;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 24px;
+    max-width: 1024px;
+}
+
+header {
+    margin-top: 32px;
+    border-bottom: 1px solid #eaecef;
+}
+img {
+    display: block;
+    margin: auto;
+}
+h1 {
+    margin: 24px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaecef;
+    text-align: center;
+}
+nav {
+    max-width: 500px;
+    margin: 0 auto 10px;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+main {
+    margin-top: 24px;
+}
+ol {
+    padding-left: 20px;
+}
+h2 {
+    margin: 24px 0 16px 0;
+}
+ol > li {
+    border-bottom: 4px solid #e1e4e8;
+}
+ol > li:last-child {
+    padding-bottom: 16px;
+}
+main ul {
+    list-style: none;
+}
+main li {
+    margin: 16px 0 ;
+}
+.my_skil,
+.exp ul {
+    margin-left: 20px;
+    list-style: disc;
+}
+pre {
+    margin-top: 16px;
+    background: #f3f6f8;
+}
+.exp a {
+    text-decoration: none;
+}
+#edu ul {
+    margin-left: 20px;
+    list-style: hiragana;
+}
+
+footer.container {
+    margin-top: -20px;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 16px 20px;
+    background-color: #e1e4e8;
+}
+.wrapper svg {
+    vertical-align: bottom;
+}
+.wrapper p {
+    text-align: center;
+}
+.wrapper a {
+    text-decoration: none;
+    color: black;
+}
+.wrapper .to_start {
+    display: block;
+    margin: 8px auto;
+    width: 120px;
+    text-align: center;
+    color: blue;
+}
+.wrapper .rs_school {
+    display: block;
+    max-width: 75px;
+    height: max-content;
+}
+.rs_school img {
+    width: 100%;
+}
+
+
+@media (max-width: 600px) {
+    pre {
+        overflow-x: scroll;
+    }
+}
