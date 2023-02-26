@@ -5,6 +5,7 @@
 
 body {
     max-width: 1440px;
+    margin: auto;
     font-family: "Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     line-height: 1.4;
 }
@@ -13,11 +14,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0 24px;
+    padding-top: 32px;
     max-width: 1024px;
 }
 
 header {
-    margin-top: 32px;
     border-bottom: 1px solid #eaecef;
 }
 img {
@@ -41,9 +42,7 @@ header ul {
     list-style: none;
 }
 
-main {
-    margin-top: 24px;
-}
+
 ol {
     padding-left: 20px;
 }
@@ -80,7 +79,7 @@ pre {
 }
 
 footer.container {
-    margin-top: -20px;
+    margin-top: -50px;
 }
 .wrapper {
     display: flex;
