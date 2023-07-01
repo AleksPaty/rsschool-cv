@@ -45,7 +45,7 @@
 5. ### Experience
     Participated in educational projects:
     * [Github_Game](https://github.com/AleksPaty/game);
-    * [Github_2/branch: home](https://github.com/AleksPaty/Rep_1).
+    * [Github_2/Rep_1: home](https://github.com/AleksPaty/Rep_1).
 
 6. ### Education 
     * HTML Academy;
