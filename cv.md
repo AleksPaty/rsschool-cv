@@ -45,7 +45,7 @@
 5. ### Experience
     Participated in educational projects:
     * [Github_Game](https://github.com/Maria-tanina/game.git);
-    * [Github_2/branch: home](https://github.com/Maria-tanina/project2.git).
+    * [Github_2/Rep_1: home](https://github.com/AleksPaty/Rep_1).
 
 6. ### Education 
     * HTML Academy;

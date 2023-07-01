@@ -101,10 +101,18 @@ footer.container {
 .wrapper .to_start {
     display: block;
     margin: 8px auto;
-    width: 120px;
+    width: max-content;
     text-align: center;
     color: blue;
 }
+.wrapper .to_start span {
+    font-size: 0;
+}
+.wrapper .to_start:hover span{
+    font-size: inherit;
+    transition: all 0.5s;
+}
+
 .wrapper .rs_school {
     display: block;
     max-width: 75px;
