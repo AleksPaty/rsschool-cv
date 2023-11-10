@@ -7,5 +7,102 @@
     <link rel="stylesheet" href="style.css">
     <title>My CV</title>
 </head>
-<body></body>
+<body>
+    <header class="container">
+        <img src="https://lh3.googleusercontent.com/a-/AFdZucoR2fAIS6KYaaHX_Y85X1kE2fskCkttpWh4X25E=s96-c-rg-br100" alt="avatar">
+        <h1>Aleksander Patalieta</h1>
+        <nav>
+            <ul>
+                <li><a href="#some_words">About me</a></li>
+                <li><a href="#codewars">Codewars</a></li>
+                <li><a href="#edu">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <ol>
+            <li>
+                <h2>My Contact</h2>
+                <ul>
+                    <li>Telegram: @NeMoyNik</li>
+                    <li>Discord: NeMoyNik (@AleksPaty)</li>
+                    <li>Email: alekcandr.patalieta@gmail.com</li>
+                </ul>
+            </li>
+            <li id="some_words">
+                <h2>Some words about me</h2>
+                <p>
+                    Some global events changed my life. And i decided that if it happend, why not to try continue to study web dev. and in the future going to make this my main job.
+                    I think that i average human. And this my strong suit. My job experience not associated with IT. But in any case i continue improve my skils end will find my place in the world.
+                </p>
+                <br>
+            </li>
+            <li>
+                <h2>Skils:</h2>
+                <ul class="my_skil">
+                    <li>HTML5;</li>
+                    <li>CSS3 (Sass);</li>
+                    <li>JavaScript Basics;</li>
+                    <li>GIT.</li>
+                </ul>
+            </li>
+            <li id="codewars">
+                <h2>Code from codewars:</h2>
+                <p>
+                    Task is to convert strings to how they would be written by Jaden Smith. The strings are actual quotes from Jaden Smith, but they are not capitalized in the same way he originally typed them.
+                </p>
+                <pre>
+                    <code>
+    String.prototype.toJadenCase = function () {
+        let curentArr = [];
+        let arrString = this.split(" ");
+        arrString.forEach((item) => {
+            let curentItem = item[0].toUpperCase() + item.slice(1);
+            curentArr.push(curentItem)
+        })
+        return curentArr.join(" ")
+    };
+                    </code>
+                </pre>
+            </li>
+            <li class="exp">
+                <h2>Experience</h2>
+                <p>Participated in educational projects:</p>
+                <ul>
+                    <li><a href="https://github.com/AleksPaty/game">Github_Game</a></li>
+                    <li><a href="https://github.com/AleksPaty/node-file-manager">node-File-manager</a></li>
+                    <li><a href="https://github.com/AleksPaty/Rep_1">Github_Online shop</a></li>
+                </ul>
+            </li>
+            <li id="edu">
+                <h2>Education</h2>
+                <ul>
+                    <li>HTML Academy;</li>
+                    <li><a href="https://learn.javascript.ru">Learn.javascript</a></li>
+                    <li>Prometheus course "Основи Web UI розробки 2022";</li>
+                    <li>IT Banda course.</li>
+                </ul>
+            </li>
+            <li>
+                <h2>English level</h2>
+                <p>English level: Pre-Intermediate (A2).</p>
+            </li>
+        </ol>
+    </main>
+    <footer class="container">
+        <div class="wrapper">
+            <a href="https://github.com/AleksPaty">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" width="26px"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                My Github
+            </a>
+            <div>
+                <p>Thank you for your attention. 2022 &#169;</p>
+                <a href="#" class="to_start">
+                    <span>&uarr;</span> Return to start <span>&uarr;</span>
+                </a>
+            </div>
+            <a href="https://rs.school/js/" class="rs_school"><img src="https://rs.school/images/rs_school_js.svg" alt="logo"></a>
+        </div>
+    </footer>
+</body>
 </html>
