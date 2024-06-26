@@ -25,7 +25,8 @@
 3. **Skils**:
     * HTML5;
     * CSS3 (Sass);
-    * JavaScript Basics;
+    * JavaScript;
+    * TypeScript;
     * GIT.
 
 4. ### Code from codewars:
@@ -44,6 +45,8 @@
     ```
 5. ### Experience
     Participated in educational projects:
+    * [Library layout](https://github.com/AleksPaty/Library);
+    * [Coffee-house layout](https://github.com/AleksPaty/coffee-house);
     * [Github_Game](https://github.com/AleksPaty/game);
     * [Github_2/Rep_1: home](https://github.com/AleksPaty/Rep_1).
 
@@ -51,6 +54,7 @@
     * HTML Academy;
     * [Learn.javascript](https://learn.javascript.ru);
     * Prometheus course "Основи Web UI розробки 2022";
-    * IT Banda course.
+    * IT Banda course;
+    * RSschool JS/FE Pre-School 2023Q2.
 
 7. **English level**: Pre-Intermediate (A2).
