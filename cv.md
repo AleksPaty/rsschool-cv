@@ -9,7 +9,7 @@
 
     ----
     
-    **Discord**: NeMoyNik (@AleksPaty)
+    **Discord**: [@NeMoyNik](https://discord.com/channels/@me)
 
     ----
     
@@ -34,19 +34,20 @@
 
     ```
     String.prototype.toJadenCase = function () {
-        let curentArr = [];
+        let currentArr = [];
         let arrString = this.split(" ");
         arrString.forEach((item) => {
-            let curentItem = item[0].toUpperCase() + item.slice(1);
-            curentArr.push(curentItem)
+            let currentItem = item[0].toUpperCase() + item.slice(1);
+            currentArr.push(currentItem)
         })
-        return curentArr.join(" ")
+        return currentArr.join(" ")
     };
     ```
 5. ### Experience
     Participated in educational projects:
-    * [Library layout](https://github.com/AleksPaty/Library);
-    * [Coffee-house layout](https://github.com/AleksPaty/coffee-house);
+    * [Library layout](https://rolling-scopes-school.github.io/alekspaty-JSFEPRESCHOOL2023Q2/library/) and [repo](https://github.com/AleksPaty/Library);
+    * [Coffee-house layout](https://alekspaty.github.io/coffee-house/coffee-house/) and [repo](https://github.com/AleksPaty/coffee-house);
+    * [Audio-player](https://alekspaty.github.io/audio-player/audio-player) and [repo](https://github.com/AleksPaty/audio-player);
     * [Github_Game](https://github.com/AleksPaty/game);
     * [Github_2/Rep_1: home](https://github.com/AleksPaty/Rep_1).
 
